@@ -1,0 +1,24 @@
+<Library>
+
+    <Books>
+        <Book id="0" title="Le tour du monde en quatre-vingts jours" author_id="1" language_id="2"/>
+        <Book id="1" title="Культурогенез и этногенез кочевых и оседлых цивилизаций в средние века" author_id="0" language_id="1"/>
+        <Book id="2" title="L'Île mystérieuse" author_id="1" language_id="2"/>
+        <Book id="3" title="Foundation" author_id="2" language_id="0"/>
+        <Book id="4" title="Essais" author_id="3" language_id="2"/>
+    </Books>
+
+    <Authors>
+        <Author id="0" name="Лев Гумилёв"/>
+        <Author id="1" name="Jules Verne"/>
+        <Author id="2" name="Isac Asimov"/>
+        <Author id="3" name="Michael de Montaigne"/>
+    </Authors>
+
+    <Languages>
+        <Language id="0" name="English"/>
+        <Language id="1" name="Русский"/>
+        <Language id="2" name="Français"/>
+    </Languages>
+
+</Library>
