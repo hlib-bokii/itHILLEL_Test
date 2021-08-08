@@ -1,0 +1,102 @@
+body
+{
+    background-color: rgb(45, 45, 45);
+}
+@font-face 
+{ 
+    font-family: NeueRudelskopf; 
+    src: url("fonts/Neue\ Rudelskopf.ttf"); 
+} 
+@font-face 
+{ 
+    font-family: RudelskopfDeutsch; 
+    src: url("fonts/Rudelskopf\ Deutsch.ttf"); 
+} 
+@font-face 
+{ 
+    font-family: Comfortaa; 
+    src: url("fonts/Comfortaa.ttf"); 
+}
+h1
+{
+    font-family: RudelskopfDeutsch;
+    font-size: 82pt;
+    color: whitesmoke;
+}
+h2
+{
+    font-family: RudelskopfDeutsch;
+    font-size: 32pt;
+    color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3
+{
+    font-family: RudelskopfDeutsch;
+    font-size: 32pt;
+    color: whitesmoke;
+    z-index: -8;
+    margin-right: 20px;
+    right: 0;
+    top: -20px;
+    position: absolute;
+}
+p
+{
+    font-family: Comfortaa; 
+    color: whitesmoke;
+}
+h6
+{
+    font-family: Comfortaa;
+    color: rgba(245, 245, 245, 0.25);
+}
+
+.main_div
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%; 
+    min-width: 500px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.2);
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.headerimg_div
+{
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.profile_div
+{
+    position: relative;
+    float:right;
+    margin-right: 10px;
+    background-color: rgba(245, 245, 245, 0.2);
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.bottom_div
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px; 
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.2);
+    position: relative;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 25px;
+}
